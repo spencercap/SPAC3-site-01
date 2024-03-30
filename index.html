@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPAC3</title>
+
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+        body {
+            margin: 0;
+            font-family: monospace;
+        }
+        spline-viewer {
+            width: 100%;
+            height: 100%;
+        }
+
+        .badge {
+            position: fixed;
+            z-index: 9;
+            color: #0a0805;
+            font-weight: bold;
+            font-size: 1.5em;
+            text-align: center;
+            transform: rotateZ(-45deg) translate(-100px, -20px);
+            width: 300px;
+            background: #f69f4b;
+        }
+    </style>
+</head>
+<body>
+    <div class="badge">
+        <div class="bg"></div>
+        <div class="text">coming soon</div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.0.91/build/spline-viewer.js"></script>
+    <spline-viewer url="https://prod.spline.design/ojKcSHH3IB3xBpuI/scene.splinecode"></spline-viewer>
+</body>
+</html>
